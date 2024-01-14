@@ -1,0 +1,42 @@
+.d1{
+  color: #1C1C28;
+  font-size: 0.875rem;
+  font-family: 'Neo Sans Arabic';
+  font-weight: 400;
+  line-height: 0.813rem;
+  word-wrap: break-word;
+}
+.d3{
+  width: 4.211rem;
+  height: 1.893;
+  background: '#FAFAFA';
+  border-radius: 8.07;
+  border: '0.81px #E8E8E8 solid';
+}
+.SC{
+  color: #99A1B7;
+}
+.SC2{
+  background-color: #FAFAFA;
+}
+
+.container1{
+    width: 52.438rem;
+    height: 16.5rem;
+
+    border-radius: 0.5rem;
+    border: 0.051rem #ebebeb solid;
+}
+.LineGradient{
+  width: 50.625rem;
+  height: 10.64rem;
+  /* opacity: 0.33; */
+  mix-blend-mode: multiply;
+  /* background: linear-gradient(180deg, #8A74F9 0%, rgba(138, 116, 249, 0.26) 48%, rgba(138, 116, 249, 0) 100%) */
+}
+.fz{
+  font-size: 0.875rem;
+}
+.div3{
+  height: 5.625rem;
+}

@@ -1,0 +1,15 @@
+
+@media screen and (min-width: 660px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+.container{
+  width: 100%;
+}
+.SC{
+  background-color: #8a74f9
+}
+.SC1{
+  background-color: #E7EAED;
+}

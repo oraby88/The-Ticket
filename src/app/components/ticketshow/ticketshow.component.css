@@ -1,0 +1,27 @@
+
+/* background-color: #3DD598 */
+.button1
+{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.fz{
+  font-size: 0.875rem;
+}
+.fz1{
+  font-size: 0.75rem;
+}
+.p1{
+  padding-top: 1.25rem;
+}
+.linediv{
+  border-top: 0.313rem rgba(255, 255, 255, 0.4) dotted;
+}
+.disP{
+  padding-top: 1.25rem;
+}
+.Tshow{
+  padding-right: 2.5rem;
+  padding-top: 1rem;
+}

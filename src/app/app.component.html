@@ -1,0 +1,27 @@
+<div class="bg-light">
+  <div class="container-fluid">
+    <div class="row p-0 m-0">
+      <nav class="col-12 col-md-12 col-lg-12 navbar navbar-light bg-light justify-content-between">
+        <div class="text-center bg-white rounded-2">
+          <button class="navbar-brand btn text-center">
+            تعديل <i class="fa-regular fa-pen-to-square"></i>
+          </button>
+        </div>
+
+        <h5 class="form-inline mr-sm-2">
+          تذكرة رقم #2342
+          <button class="btn SC1">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </h5>
+      </nav>
+      <div class="col-12 col-md-4 col-lg-4 rounded-4 SC p-2">
+        <app-ticketshow></app-ticketshow>
+      </div>
+      <div class="col-12 col-md-8 col-lg-8">
+        <app-statistics [chart]="option"></app-statistics>
+      </div>
+    </div>
+    <app-table-of-tickets></app-table-of-tickets>
+  </div>
+</div>

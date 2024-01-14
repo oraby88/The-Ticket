@@ -1,0 +1,72 @@
+<div class="container b-4">
+  <div class="text-center p-2">
+    <div class="row" dir="rtl">
+      <div class="col-11 col-md-11 col-lg-11 Tshow">
+        <h4 class="text-white fz">عرض التذكرة الخاصه بالفيلم</h4>
+        <div class="bg-white p-2 rounded-3 fz">
+          <a
+            class="p-2 text-decoration-none text-black fz"
+            href="https://www.google.com"
+            >www.tazkty.com/473847</a
+          >
+          <button
+            ngxClipboard
+            cbContent="www.tazkty.com/473847"
+            class="button1"
+          >
+            <i class="fa-regular fa-copy"></i>
+          </button>
+        </div>
+        <h6 class="text-white p-2 fz1">فعال حتي 15 يوليو 2023</h6>
+      </div>
+      <div class="col-1 col-md-1 p1">
+        <button
+          class="btn text-decoration-none"
+          pButton
+          [pTooltip]="tooltipContent1"
+          tooltipPosition="bottom"
+        >
+          <i class="fa-solid fa-trash fa-xl"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="" style="width: 378.38px; height: 0px; border: 2.49px rgb(255, 255,255, 0.40) dotted"></div> -->
+
+  <div>
+    <div class="linediv"></div>
+  </div>
+
+  <div class="row" dir="rtl">
+    <div class="col-md-6 text-white p-2">
+      <P class="text-white disP">خصم</P>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>25%</h4>
+        </div>
+        <div class="col-md-8">
+          <button
+            pButton
+            [pTooltip]="tooltipContent"
+            tooltipPosition="bottom"
+            class="btn text-white border-white"
+          >
+            <i class="fa-regular fa-paper-plane fa-flip-horizontal"></i>
+            مشاركة
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-md-6 text-center text-white t-2 justify-content-center align-items-center pt-2 pr-4"
+    >
+      <qrcode
+        (qrCodeURL)="onChangeURL($event)"
+        [qrdata]="myAngularxQrCode"
+        [width]="100"
+        [errorCorrectionLevel]="'M'"
+      ></qrcode>
+      <!-- <a [href]="qrCodeDownloadLink" download="qrcode">Download</a> -->
+    </div>
+  </div>
+</div>

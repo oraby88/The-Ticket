@@ -1,0 +1,487 @@
+<div class="container3 bg-light" dir="rtl">
+  <div class="row" style="padding-top: 20px">
+    <div class="col-12 col-md-2 col-lg-2 w-auto">
+      <h5>مبيعات التذاكر</h5>
+    </div>
+    <div class="col-3 col-md-3 w-auto">
+      <input
+        dir="rtl"
+        class="form-control me-2"
+        type="search"
+        pInputText
+        pTooltip="Enter your username"
+        tooltipEvent="focus"
+        placeholder="بحث عن..."
+        pInputText
+        pTooltip="Sreach..."
+        list="values"
+      />
+      
+    </div>
+    <div class="col-2 col-md-2 w-auto">
+      <div class="text-center sittingdiv">
+        <i class="fa-solid fa-sliders SC1"></i>
+      </div>
+    </div>
+    <div class="col-2 col-md-2 ms-0 div6">
+      <div class="text-center div4">
+        <i class="fa-solid fa-arrows-up-down SC1"></i>
+      </div>
+    </div>
+
+    <div class="col-2 col-md-2 SC div7">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- <div class="Toggle">
+              <div
+                class="Toggle"
+                style="width: 10px; height: 18px; position: relative"
+              >
+                <div
+                  class="Ellipse4"
+                  style="
+                    width: 14.03px;
+                    height: 14.03px;
+                    left: 18.06px;
+                    top: 1.99px;
+                    position: absolute;
+                    background: white;
+                    border-radius: 9999px;
+                  "
+                ></div>
+                <div
+                  class="Rectangle16"
+                  style="
+                    width: 34px;
+                    height: 18px;
+                    left: 0px;
+                    top: 0px;
+                    position: absolute;
+                    background: #8a74f9;
+                    border-radius: 38.25px;
+                  "
+                ></div>
+
+              </div>
+            </div> -->
+          
+          <i
+            class="fa-solid fa-toggle-on fa-flip-horizontal fa-2xl ToggleColor"
+          ></i>
+        </div>
+        <div class="col-4 col-md-4 div8">
+          <h6 class="fz4">مفعلة</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col-2 col-md-2 Tbutton w-auto">
+      <button
+        pButton
+        [pTooltip]="tooltipContent"
+        tooltipPosition="bottom"
+        class="btn button2"
+      >
+        حجز تذكرة جديده
+      </button>
+    </div>
+  </div>
+
+  <br />
+  <!-- <div class="rounded-2 bg-white p-2">
+      <table class="table text-center" dir="rtl">
+        <thead>
+          <tr>
+            <th scope="col" class="SC bg-light">#</th>
+            <th scope="col" class="SC bg-light">المستخدم</th>
+            <th scope="col" class="SC bg-light">رقم التذكرة</th>
+            <th scope="col" class="SC bg-light">
+              قيمى التذكرة
+              <i class="fa-solid fa-arrows-up-down" style="color: #8b8b8b"></i>
+            </th>
+            <th scope="col" class="SC bg-light">السينمات</th>
+            <th scope="col" class="SC bg-light">عدد الاشخاص</th>
+            <th scope="col" class="SC bg-light">عدد مرات الشراء</th>
+            <th scope="col" class="SC bg-light">التذكرة</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+              <img src="" />
+              أحمد محمود
+              <p class="SC">0123456789</p>
+            </td>
+            <td>C-101</td>
+            <td>$40</td>
+            <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+            <td class="text-center">1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="row">
+                <div class="col-md-2">
+                  <div
+                    class="text-center justify-content-center align-items-center rounded-2"
+                    style="
+                      width: 31px;
+                      height: 31px;
+                      background-color: rgba(138, 116, 249, 0.1);
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-ticket fa-lg"
+                      style="color: #8a74f9"
+                    ></i>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  تذكرة رقم 45.pdf
+                  <p class="SC">PDF . 9mb</p>
+                </div>
+                <div class="col-md-2">
+                  <i class="fa-regular fa-circle-down fa-sm"></i>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>
+              <img src="https://via.placeholder.com/30x30" alt="" />
+              محمود الغريب
+              <p class="SC">0123456789</p>
+            </td>
+            <td>C-102</td>
+            <td>$30</td>
+            <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+            <td class="text-center">1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="row">
+                <div class="col-md-2">
+                  <div
+                    class="text-center justify-content-center align-items-center rounded-2"
+                    style="
+                      width: 31px;
+                      height: 31px;
+                      background-color: rgba(138, 116, 249, 0.1);
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-ticket fa-lg"
+                      style="color: #8a74f9"
+                    ></i>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  تذكرة رقم 45.pdf
+                  <p class="SC">PDF . 9mb</p>
+                </div>
+                <div class="col-md-2">
+                  <i class="fa-regular fa-circle-down fa-sm"></i>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>
+              <img src="https://via.placeholder.com/30x30" alt="" /><a
+                (click)="ggg()"
+              >
+                محمد الغريب</a
+              >
+
+              <p class="SC">0123456789</p>
+            </td>
+            <td>C-103</td>
+            <td>$45</td>
+            <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+            <td class="text-center">1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="row">
+                <div class="col-md-2">
+                  <div
+                    class="text-center justify-content-center align-items-center rounded-2"
+                    style="
+                      width: 31px;
+                      height: 31px;
+                      background-color: rgba(138, 116, 249, 0.1);
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-ticket fa-lg"
+                      style="color: #8a74f9"
+                    ></i>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  تذكرة رقم 45.pdf
+                  <p class="SC">PDF . 9mb</p>
+                </div>
+                <div class="col-md-2">
+                  <i class="fa-regular fa-circle-down fa-sm"></i>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>
+              <img src="https://via.placeholder.com/30x30" alt="" />
+              محمد الغريب
+              <p class="SC">0123456789</p>
+            </td>
+            <td>C-104</td>
+            <td>$54</td>
+            <td>سينما مصر , مول العرب , برج الأطنان , سرايا القبة ...</td>
+            <td class="text-center">1</td>
+            <td>مرة واحدة</td>
+            <td>
+              <div class="row">
+                <div class="col-md-2">
+                  <div
+                    class="text-center justify-content-center align-items-center rounded-2"
+                    style="
+                      width: 31px;
+                      height: 31px;
+                      background-color: rgba(138, 116, 249, 0.1);
+                    "
+                  >
+                    <i
+                      class="fa-solid fa-ticket fa-lg"
+                      style="color: #8a74f9"
+                    ></i>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  تذكرة رقم 45.pdf
+                  <p class="SC">PDF . 9mb</p>
+                </div>
+                <div class="col-md-2">
+                  <i class="fa-regular fa-circle-down fa-sm"></i>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row"></th>
+            <td>
+              <div class="container">
+                <div class="text-center p-2">
+                  عرض
+                  <div class="btn-group">
+                    <button
+                      class="btn btn-sm dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      20
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>1</li>
+                      <li>2</li>
+                      <li>3</li>
+                      <li>4</li>
+                      <li>5</li>
+                      <li>6</li>
+                    </ul>
+                  </div>
+                  من اصل 250
+                </div>
+              </div>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <div class="">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">4</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#">5</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div> -->
+</div>
+
+<div class="container-fluid rounded-2 bg-white p-2 container2">
+  <p-table
+    #myTab
+    [value]="tableData"
+    dir="rtl"
+    [scrollable]="true"
+    scrollHeight="400px"
+    class="text-center"
+  >
+    <ng-template pTemplate="header" class="rounded-2">
+      <tr>
+        <th scope="col" class="SC bg-light">#</th>
+        <th scope="col" class="SC bg-light">المستخدم</th>
+        <th scope="col" class="SC bg-light">رقم التذكرة</th>
+        <th scope="col" class="SC bg-light">
+          قيمى التذكرة
+          <i class="fa-solid fa-arrows-up-down SC1"></i>
+        </th>
+        <th scope="col" class="SC bg-light">السينمات</th>
+        <th scope="col" class="SC bg-light">عدد الاشخاص</th>
+        <th scope="col" class="SC bg-light">عدد مرات الشراء</th>
+        <th scope="col" class="SC bg-light">التذكرة</th>
+        
+      </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-people class="text-center">
+      <tr>
+        <th scope="row">
+          <button class="button1" (click)="idClick(people.id)">
+            {{ people.id }}
+          </button>
+        </th>
+        <td>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-1 w5"><img src="assets/men.jpg" alt="" /></div>
+              <div class="col-md-10 ">
+                <button class="button1" (click)="idClick(people.id)">
+                {{ people.name }}
+                </button>
+              </div>
+              <p class="SC">0123456789</p>
+            </div>
+          </div>
+        </td>
+        <td>
+          {{ people.tichetNum }}
+        </td>
+        <td class="text-center">
+          {{ people.price }}
+        </td>
+        <td class="text-center fz">
+          {{ people.address }}
+        </td>
+        <td class="text-center">
+          {{ people.peopleNum }}
+        </td>
+        <td class="text-center fz">
+          {{ people.numOfSale }}
+        </td>
+        <td>
+          <div class="row">
+            <div class="col-md-2">
+              <div
+                class="text-center justify-content-center align-items-center rounded-2 div9"
+              >
+                <i class="fa-solid fa-ticket fa-lg SC2"></i>
+              </div>
+            </div>
+            <div class="col-md-8 fz1">
+              {{ people.ticket }}
+              <p class="SC fz2">PDF . 9mb</p>
+            </div>
+            <div class="col-md-2">
+              <i class="fa-regular fa-circle-down fa-sm"></i>
+            </div>
+          </div>
+        </td>
+        
+      </tr>
+    </ng-template>
+  </p-table>
+  <div class="container" dir="rtl">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="text-center p-2 showdiv">
+          عرض
+          <div class="btn-group">
+            <button
+              class="btn btn-sm dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              20
+            </button>
+            <ul class="dropdown-menu">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+            </ul>
+          </div>
+          من اصل 250
+        </div>
+      </div>
+      <div class="col-md-6 div10">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">3</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">4</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">5</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
